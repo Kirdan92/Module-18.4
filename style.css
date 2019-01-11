@@ -1,0 +1,48 @@
+html {
+	font-size: 16px;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#app {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.countersContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+.counterContainer {
+	margin: 10px 0;
+}
+.counterContainer span{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.addbutton, .subbutton {
+	
+	padding: 5px;
+	font-size: 1.1rem;
+}
+.addbutton {
+	background-color: #27ae60;
+	border: 2px solid #2c3e50;
+	color: #2c3e50;
+	margin-right: 10px;
+}
+
+.subbutton {
+	background-color: #c0392b;
+	border: 2px solid #ecf0f1;
+	color: #ecf0f1;
+	
+}
